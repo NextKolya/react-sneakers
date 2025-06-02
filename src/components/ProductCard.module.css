@@ -1,0 +1,112 @@
+.product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    background-color: white;
+    width: 210px;
+    height: 260px;
+
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 1px #f3f3f3 solid;
+
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.058);
+}
+.product-card img {
+    width: 133px;
+    height: 112px;
+}
+.product-card > span {
+    width: 150px;
+    height: 34px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.price-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    width: 151px;
+    height: 32px;
+}
+.add-like {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 32px;
+    height: 32px;
+
+    border: 1px #f8f8f8 solid;
+    border-radius: 7px;
+}
+.add-like img {
+    width: 16px;
+    height: 16px;
+}
+.is-liked {
+    background-color: #fef0f0;
+}
+.price-block > div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.price-block span:nth-child(1) {
+    color: #bdbdbd;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+}
+.price-block span:nth-child(2) {
+    color: #000000;
+    width: 80px;
+    height: 17px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.add-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 32px;
+    height: 32px;
+
+    border: 1px #f2f2f2 solid;
+    border-radius: 8px;
+
+    font-size: 21px;
+    color: #d3d3d3;
+}
+.is-cart {
+    background: linear-gradient(to bottom, #89f09c 0%, #3cc755 100%);
+}
+.is-cart > img {
+    width: 12.67px;
+    height: 10.51px;
+}

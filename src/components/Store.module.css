@@ -1,0 +1,54 @@
+.store {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    width: 960px;
+    height: 941px;
+}
+
+.title-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 250px;
+}
+.title-block input {
+    height: 45px;
+
+    box-sizing: border-box;
+    padding: 10px 10px 10px 32px;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translate(-50%, -50%);
+
+    width: 16.25px;
+    height: 16.25px;
+}
+
+.products {
+    width: 960px;
+    height: 872px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 39.4px;
+}

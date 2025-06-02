@@ -1,0 +1,130 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+
+    box-sizing: border-box;
+    border-bottom: 1px #eaeaea solid;
+}
+.navigation {
+    width: 975px;
+    height: 41px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-block {
+    width: 245px;
+    height: 41px;
+
+    display: flex;
+    gap: 10px;
+}
+.title-block img {
+    width: 40px;
+    height: 40px;
+}
+.title-text {
+    display: flex;
+    flex-direction: column;
+}
+.title-block span:nth-child(1) {
+    width: 180px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.title-block span:nth-child(2) {
+    text-wrap: nowrap;
+
+    width: 189px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #9d9d9d;
+}
+
+.link-block {
+    width: 338px;
+    height: 19px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.link-block * {
+    all: unset;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5c5c5c;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+}
+.link img {
+    width: 18px;
+    height: 18px;
+}
+.link:nth-child(1) {
+    min-width: 95px;
+    max-width: 110px;
+    height: 17.18px;
+}
+.link:nth-child(2) {
+    width: 92px;
+    height: 17.3px;
+}
+.link:nth-child(2) span {
+    width: 66px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.link:nth-child(3) {
+    width: 87px;
+    height: 19px;
+}
+.link:nth-child(3) span {
+    width: 61px;
+    height: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5c5c5c;
+}
